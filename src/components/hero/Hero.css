@@ -1,0 +1,32 @@
+#hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px;
+}
+
+#hero-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #303030;
+}
+
+#hero-subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ababab;
+}
+
+#hero-image-container {
+  margin-top: 80px;
+  display: flex;
+  gap: 21px;
+}
+
+#hero-image-container img {
+  height: 400px;
+}

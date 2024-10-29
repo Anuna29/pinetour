@@ -3,8 +3,9 @@ import "./Header.css";
 import { HeaderLogo } from "../../assets"
 
 export const Header = () => {
-  return <div>
-    <HeaderLogo id="header-container" />
-  </div>
+  return ( 
+  <div id="header-container">
+    <HeaderLogo />
+  </div>)
 }
 
