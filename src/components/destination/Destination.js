@@ -10,14 +10,16 @@ export const Destination = () => {
         <div id='destination-title'>Destination of
         Our Agency</div>
         <div id='destination-map'>
-          {destinations.map((destination) => (
+          {destinations.map((destination,index) => (
             <div id='destination-item-container'>
               <div id='destination-item-left'>D{destination.number}</div>
               <div id='destination-item-right'>
                 <div id='destination-item-right-title'>{destination.title}</div>
                 <div id='destination-item-right-location'>{destination.location}</div>
-  
               </div>
+              
+              {index < destinations.length - 1 && <div id="stripe"></div>}
+              
             </div>
           ))}
         </div>
