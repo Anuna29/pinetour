@@ -6,8 +6,8 @@ export const Destination = () => {
   return (
     <div id='destination-container'>
       <div id='destination-left'>
-        <div id='destination-subtitle'>Tours | 6 DAYS</div>
-        <div id='destination-title'>Destination of
+        <div id='subtitle'>Tours | 6 DAYS</div>
+        <div id='title'>Destination of
         Our Agency</div>
         <div id='destination-map'>
           {destinations.map((destination,index) => (
