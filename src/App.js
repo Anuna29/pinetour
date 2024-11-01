@@ -1,4 +1,4 @@
-import { Destination, Header, Hero, Pricing } from "./components";
+import { Destination, Header, Hero, Pricing, Ready } from "./components";
 
 export function App() {
   return (
@@ -7,6 +7,7 @@ export function App() {
      <Hero />
      <Destination />
      <Pricing />
+     <Ready />
     </div>
   );
 };
