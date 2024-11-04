@@ -5,7 +5,7 @@ export const Pricing = () => {
   return (
     <div id="pricing-container">
       <div id="subtitle">PRICING</div>
-      <div id="title">Pricing of
+      <div id="pricing-title">Pricing of
       Our Agency</div>
       <div id="pricing-cards">
         <div className='card'>
